@@ -1,6 +1,6 @@
 # Адаптивный сайт мебельного интернет магазина (верстка)
 
-- Сайт доступен по [ссылке](https://gobioid-commanders.000webhostapp.com/)
+- Сайт доступен по [ссылке](https://daria-bnn.github.io/The-furniture-store/index.html)
 
 ### Описание
 
