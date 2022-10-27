@@ -1,0 +1,173 @@
+@media (max-width: 767px) {
+	.center {
+		padding-left: calc(50% - 171.5px);
+		padding-right: calc(50% - 171.5px);
+	}
+
+	.title {
+		font-size: 24px;
+		line-height: 29.26px;
+	}
+
+	.header {
+		border: none;
+	}
+
+	.header__logo {
+		width: 99px;
+	}
+
+	.header__logo-img {
+		width: 100%;
+	}
+
+	.header__search {
+		display: none;
+	}
+
+	.header__menu {
+		display: none;
+	}
+
+	.menu-mobile {
+		display: flex;
+		align-items: center;
+		gap: 32px;
+	}
+
+	.top__title {
+		font-size: 48px;
+		line-height: 58.51px;
+		text-align: center;
+		word-break: break-word;
+		max-width: 343px;
+		margin-top: 32px;
+	}
+
+	.catalog-top__title {
+		text-align: center;
+		margin-top: 82px;
+		font-size: 48px;
+		line-height: 58.51px;
+	}
+
+	.top__slogan {
+		text-align: center;
+	}
+
+	.top__link {
+		display: block;
+		text-align: center;
+	}
+
+	.for {
+		padding-top: 32px;
+		padding-bottom: 32px;
+
+	&__content {
+		grid-template-columns: repeat(4, 1fr);
+		gap: 16px;
+	}
+
+	&__item {
+		font-size: 28px;
+		line-height: 34.13px;
+	}
+
+	&__item_bg {
+		grid-column: span 4;
+	}
+	}
+
+	.offer-products{
+		padding-bottom: 36px;
+		&__content {
+			gap: 32px;
+		}
+	}
+
+	.product {
+		width: 100%;
+	}
+
+	.product__name {
+		font-size: 18px;
+		line-height: 21.94px;
+	}
+
+	.product__price {
+		font-size: 18px;
+		line-height: 21.94px;
+	}
+
+	.products {
+		padding-bottom: 32px;
+		&__content {
+			gap: 32px;
+		}
+		&__nav {
+			gap: 16px;
+			margin-bottom: 32px;
+			margin-top: 32px;
+		}
+	}
+
+	.breadcrumb__item:not(:last-child)::after {
+		font-size: 14px;
+	}
+
+	.breadcrumb__link {
+		font-size: 14px;
+	}
+
+	.label {
+		font-size: 14px;
+	}
+
+	.select {
+		font-size: 14px;
+	}
+
+	.cart {
+		display: flex;
+		flex-direction: column;
+		gap: 64px;
+		padding-bottom: 48px;
+	}
+
+	.cart-item {
+		padding-top: 18px;
+		padding-bottom: 24px;
+		&__image {
+			display: none;
+		}
+		&__caption {
+			max-width: 253px;
+		}
+		&__price {
+			font-size: 14px;
+		}
+		&__buttons {
+			justify-content: space-between;
+		}
+		&__btn {
+			font-size: 12px;
+			line-height: 14.63px;
+			flex: 0 1 166px;
+		}
+	}
+
+	.footer {
+		&__info {
+			justify-content: space-between;
+			flex: 1;
+			gap: 0;
+			margin-bottom: 32.5px;
+		}
+	&__form {
+		align-items: center;
+		width: 100%;
+	}	
+	}
+}
+
